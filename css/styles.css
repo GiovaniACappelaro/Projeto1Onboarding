@@ -1,0 +1,74 @@
+/*MOBILE FIRST */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 5.2vh;
+    width: 100%;
+    background-color: #2571B7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 1.5vh;
+}
+
+/*hamburguer menu*/
+
+#burguerMenu{
+    height: 2.1vh;
+    width: 3.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2571B7;
+}
+
+.burguerMenuLine{
+    background-color: antiquewhite;
+    height: 10%;
+    border-radius: 2px;
+}
+
+/*cta menu*/
+
+#menuCTA{
+    width: 12vh;
+    height: 3.3vh;
+    color: antiquewhite;
+    background-color: #002050;
+    text-align: center;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+/*anotações próximas queryes
+
+tablet - 768 width:
+header{
+    height: 8vh;
+    padding: 1.5 vh;
+}
+
+#burguerMenu{
+    height: 5vh;
+    width: 7vh;
+}
+
+
+*/

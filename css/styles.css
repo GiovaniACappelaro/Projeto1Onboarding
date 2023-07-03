@@ -202,7 +202,7 @@ h2.heroH2{
 }
 
 
-/*section dos símbolos*/
+/*section dos símbolos (após os cards)*/
 
 #simbols{
     margin-top: 6vh;
@@ -231,7 +231,11 @@ h2.heroH2{
     line-height: 1.5;
     width: 100%;
     height: 26vh;
-    border: 1px solid black;
+    border-bottom: 0.7vh solid #DEDEDE;
+}
+
+.simbleCard.noGreyBorder{
+    border-bottom: none;
 }
 
 .simbleCardText{
@@ -259,8 +263,22 @@ h2.heroH2{
     font-weight: bold;
     padding: 1.3vh;
     border: 1px solid;
+    border-radius: 0.3vh;
 }
 
+/*cores de botões e títulos dos simble cards */
+
+.color7FBA00{
+    color: #7FBA00;
+}
+
+.color00A4EF{
+    color: #00A4EF;
+}
+
+.colorFFB900{
+    color: #FFB900;
+}
 
 
 

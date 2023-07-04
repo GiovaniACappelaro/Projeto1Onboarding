@@ -356,11 +356,50 @@ h2.heroH2{
     padding-top: 2.2vh;
 }
 
+/*espaço em branco pré form */
+
+.whitespace{
+    height: 5vh;
+    width: 100%;
+}
+
 /* Form */
 
-#form{
-    padding: 5vh 2vh 1vh 2vh;
+#formSection{
+    padding: 0vh 2vh 1vh 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #00AFF0;
 }
+
+.preFormTitle{
+    font-size: 3vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: 550;
+    color: #b4ffd8;
+    background-color: #174892;
+    height: 7vh;
+    vertical-align: center;
+    padding-top: 2vh;
+}
+
+.preFormText{
+    text-align: center;
+    margin-bottom: 2vh;
+    font-weight: 450;
+}
+
+form{
+    display: flex;
+    flex-direction: column ;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column ;
+}
+
+
 
 
 

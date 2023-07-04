@@ -368,7 +368,10 @@ h2.heroH2{
 #formSection{
     padding: 0vh 2vh 1vh 2vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:  #00AFF0;
+}
+
+.formWrapper{
+    background-color:  #000080;
 }
 
 .preFormTitle{
@@ -376,8 +379,8 @@ h2.heroH2{
     margin-bottom: 2vh;
     text-align: center;
     font-weight: 550;
-    color: #b4ffd8;
-    background-color: #174892;
+    color:  #f2f2f2;
+    background-color: #000033;
     height: 7vh;
     vertical-align: center;
     padding-top: 2vh;
@@ -386,7 +389,8 @@ h2.heroH2{
 .preFormText{
     text-align: center;
     margin-bottom: 2vh;
-    font-weight: 450;
+    font-weight: 500;
+    color: #f2f2f2;
 }
 
 form{
@@ -397,8 +401,15 @@ form{
 fieldset{
     display: flex;
     flex-direction: column ;
+    color: white;
+    font-weight: 500;
 }
 
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: white;
+}
 
 
 

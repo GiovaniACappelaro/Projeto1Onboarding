@@ -168,42 +168,44 @@
 
     <section id="formSection">
 
-        <h3 class="preFormTitle">Make contact (we're cool)</h3>
-        <p class="preFormText">Fill the form bellow with your personal information</p>
-
-        <form action="">
-            <fieldset>
-                <label for="full-name">Enter your full name: <input type="text" id="full-name" name="fullName"></label>
-                <label for="e-mail">Enter your best e-mail: <input type="e-mail" id="e-mail" name="eMail"></label>
-                <label for="phone-number">Enter your phone number: <input type="number" id="phone-number" name="phoneNumber"></label>
-            </fieldset>
-
-            <fieldset>
-                <label for="a-student"><input type="radio" name="carreer-situation" id="a-student"> I'm a Student</label>
-                <label for="a-intern"><input type="radio" name="carreer-situation" id="a-intern"> I'm an Intern</label>
-                <label for="a-worker"><input type="radio" name="carreer-situation" id="a-worker">I'm hired Employee</label>
-            </fieldset>
-
-            <fieldset>
-                <label for="referrer">How did you here about us?
-                    <select name="referrer" id="referrer">
-                        <option value="">(select one)</option>
-                        <option value="1">Social media</option>
-                        <option value="2">Our blog</option>
-                        <option value="3">Our website</option>
-                        <option value="4">Other</option>
-                    </select>
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <label for="extra-info">Tell us more about you: <textarea name="extraInfo" id="extra-info" cols="30" rows="3" placeholder="I study progamming and ..."></textarea></label>
-                <label for="agree-terms"><input type="checkbox" name="agreeTerms" id="agree-terms" required> I agree with the <a href=""><i>terms and conditions</i></a></label>
-            </fieldset>
-
-            <input type="submit" value="Submit" name="submit">
-
-        </form>
+        <div class="formWrapper">
+            <h3 class="preFormTitle">Make contact (we're cool)</h3>
+            <p class="preFormText">Fill the form bellow with your personal information</p>
+    
+            <form action="">
+                <fieldset>
+                    <label for="full-name">Enter your full name: <input type="text" id="full-name" name="fullName"></label>
+                    <label for="e-mail">Enter your best e-mail: <input type="e-mail" id="e-mail" name="eMail"></label>
+                    <label for="phone-number">Enter your phone number: <input type="number" id="phone-number" name="phoneNumber"></label>
+                </fieldset>
+    
+                <fieldset>
+                    <label for="a-student"><input type="radio" name="carreer-situation" id="a-student"> I'm a Student</label>
+                    <label for="a-intern"><input type="radio" name="carreer-situation" id="a-intern"> I'm an Intern</label>
+                    <label for="a-worker"><input type="radio" name="carreer-situation" id="a-worker">I'm hired Employee</label>
+                </fieldset>
+    
+                <fieldset>
+                    <label for="referrer">How did you here about us?
+                        <select name="referrer" id="referrer">
+                            <option value="">(select one)</option>
+                            <option value="1">Social media</option>
+                            <option value="2">Our blog</option>
+                            <option value="3">Our website</option>
+                            <option value="4">Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+    
+                <fieldset>
+                    <label for="extra-info">Tell us more about you: <textarea name="extraInfo" id="extra-info" cols="30" rows="3" placeholder="I study progamming and ..."></textarea></label>
+                    <label for="agree-terms"><input type="checkbox" name="agreeTerms" id="agree-terms" required> I agree with the <a href=""><i>terms and conditions</i></a></label>
+                </fieldset>
+    
+                <input type="submit" value="Submit" name="submit">
+    
+            </form>
+        </div>
         
     </section>
 

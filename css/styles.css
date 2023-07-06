@@ -371,7 +371,7 @@ h2.heroH2{
 }
 
 .formWrapper{
-    background-color:  #000080;
+    background-color:  #06065a;
 }
 
 .preFormTitle{
@@ -403,13 +403,35 @@ fieldset{
     flex-direction: column ;
     color: white;
     font-weight: 500;
+    padding: 2vh;
+    border-bottom: 0.5vh solid #3b3b4f;
+    margin: 0 1.5vh;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
 }
 
 input, textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: white;
+    padding: 0.7vh ;
+    margin: 1vh;
+    border-radius: 0.5vh;
+    object-fit: cover; 
 }
+
+a{
+    color: #f0d4a0;
+    text-decoration: none;
+}
+
+.inline{
+    vertical-align: middle;
+    width: unset;
+}
+
 
 
 

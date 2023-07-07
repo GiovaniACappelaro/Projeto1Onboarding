@@ -339,15 +339,12 @@ h2.heroH2{
 #companyCelebrationSection{
     margin-top: 7vh;
     background-image: url(../images/happyBusiness.png);
-    height: 31vh;
     text-align: center;
     padding: 3vh;
     line-height: 1.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
-    /*background-size: cover;      
-    background-position: center; 
-    background-attachment: fixed;  */
+    
 }
 
 .celebrationText{
@@ -455,7 +452,7 @@ input[type="submit"]{
     background-color: #525151;
     padding: 3vh 3vh 0.5vh 3vh;
     color: white;
-    height: 15vh;
+    height: 100px;
 }
 
 .footerInline{
@@ -470,7 +467,6 @@ input[type="submit"]{
 }
 
 .copyRight{
-    padding-top: 1vh;
     text-align: center;
     margin-top: 1rem;
     display: inline-block;

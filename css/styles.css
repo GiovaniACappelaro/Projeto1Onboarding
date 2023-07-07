@@ -368,7 +368,7 @@ h2.heroH2{
 #formSection{
     padding: 0vh 2vh 1vh 2vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
+    margin: 0 auto 5vh auto;
 }
 
 .formWrapper{
@@ -400,6 +400,7 @@ form{
     flex-direction: column ;
     max-width: 750px;
     min-width: 300px;
+    padding-bottom: 3vh;
 }
 
 fieldset{
@@ -448,6 +449,33 @@ input[type="submit"]{
     background-color: #3b3b4f;
     font-size: 1.1rem;
 }
+
+#footerSection{
+    background-color: #525151;
+    padding: 3vh 3vh 0.5vh 3vh;
+    color: white;
+    height: 15vh;
+}
+
+.footerInline{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+#footerSection img{
+    align-self: center;
+}
+
+.copyRight{
+    padding-top: 2vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+
 
 
 

@@ -59,7 +59,7 @@ header{
 
 #hero{
     width: 100%;
-    height: 80vh;
+    height: 38rem;
     background-image: url('../images/pcHeaderFull.png');
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -523,6 +523,14 @@ input[type="submit"]{
 
 }
 
+/*Hero banner */
+
+@media (min-width: 768px){
+    #hero{
+        width: 100%;
+        height: 47rem;
+    }
+}
 
 
 /*company celebration */

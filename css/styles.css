@@ -135,7 +135,7 @@ h2.heroH2{
     font-weight: 550;
 }
 
-/*section de cards*/
+/*section de cards coloridos*/
 
 #cards{
     display: flex;
@@ -495,7 +495,7 @@ input[type="submit"]{
 
 @media(min-width: 768px){
     header{
-        height: 6rem;
+        height: 5.5rem;
         padding: 0.8rem;
     }
 
@@ -532,6 +532,17 @@ input[type="submit"]{
     }
 }
 
+/*colored cards */
+
+@media (min-width: 768px){
+
+    .cardText{
+        padding: 0.6rem;
+        font-size: 1.1rem;
+
+    }
+}
+
 
 /*company celebration */
 
@@ -547,6 +558,29 @@ input[type="submit"]{
         background-image: url(../images/happyBusiness320x1440.png);
         font-size: 1.8rem;        
     }
+}
+
+
+
+/*form */
+
+@media (min-width: 768px){
+
+    form{
+        font-size: 1.2rem;
+    }
+
+    input[type="submit"]{
+        font-size: 1.4rem;
+    }
+
+    select{
+        width: 8rem;
+        text-align: center;
+        padding: 0.2rem;
+        font-size: 1rem;
+    }
+
 }
 
 

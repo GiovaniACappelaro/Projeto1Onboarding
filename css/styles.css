@@ -699,8 +699,6 @@ select{
     }
 }
 
-/*colored cards: */
-
 @media (min-width: 1024px){
 
     #cards{
@@ -747,6 +745,34 @@ select{
         display: inline-block;
     }
 }
+
+/*Grey cards */
+
+@media (min-width: 1024px) {
+    .greyCards{
+        flex-direction: row;
+    }
+
+    .greyCard{
+        border: 3px solid #DEDEDE;
+        border-right: 1.5px solid #DEDEDE;
+        width: 100%;
+        height: 23vh;
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3vh;
+        font-size: 1.9vh;
+    }
+
+    .greyCard:last-of-type {
+        border-right: 3px solid #DEDEDE;
+    }
+}
+
+
 
 /*company celebration */
 

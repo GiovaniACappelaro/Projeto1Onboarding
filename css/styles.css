@@ -233,19 +233,23 @@ h2.heroH2{
 /*cards a partir de 1024px */
 
 .cardcolor2C5898{
-    background-color: #2C5898; 
+    background-color: #2C5898;
+    display: none;
 }
 
 .cardcolor5558AF{
     background-color: #5558AF;
+    display: none;
 }
 
 .cardcolor00AFF0{
     background-color: #00AFF0;
+    display: none;
 }
 
 .cardcolor0073C6{
     background-color: #0073C6;
+    display: none;
 }
 
 
@@ -256,6 +260,10 @@ h2.heroH2{
     text-align: center;
     padding: 0vh 2vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigSimble{
+    display: none;
 }
 
 .simbleCards{
@@ -691,6 +699,7 @@ select{
     }
 }
 
+/*colored cards: */
 
 @media (min-width: 1024px){
 
@@ -700,23 +709,44 @@ select{
         justify-content: space-between;
         flex-wrap: wrap;
     }
-
+    
     .card{
         width: 49%;
-        /*
-        padding: 1vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        color: whitesmoke;
-        border-radius: 2px;
-        height: min-content; /*altura baseada no elemento filho*/
+        display: flex; /*ja sobrepoe o display: none das card colors*/
+        
     }
 }
 
+/*Simble cards : */
 
+@media (min-width: 1024px){
+    .simbleCards{
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .simbleCard{
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 1.9vh;
+        line-height: 1.5;
+        width: 100%;
+        border-bottom: none;
+    }
 
+    .simbleCardText{
+        text-align: center;
+        font-size: 1.8vh;
+    }
+
+    .smallSimble{
+        display: none;
+    }
+
+    .bigSimble{
+        display: inline-block;
+    }
+}
 
 /*company celebration */
 

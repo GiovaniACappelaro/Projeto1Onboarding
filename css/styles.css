@@ -230,6 +230,24 @@ h2.heroH2{
     background-color: #4EACEA;
 }
 
+/*cards a partir de 1024px */
+
+.cardcolor2C5898{
+    background-color: #2C5898; 
+}
+
+.cardcolor5558AF{
+    background-color: #5558AF;
+}
+
+.cardcolor00AFF0{
+    background-color: #00AFF0;
+}
+
+.cardcolor0073C6{
+    background-color: #0073C6;
+}
+
 
 /*section dos símbolos (após os cards)*/
 
@@ -672,6 +690,32 @@ select{
 
     }
 }
+
+
+@media (min-width: 1024px){
+
+    #cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 49%;
+        /*
+        padding: 1vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+        border-radius: 2px;
+        height: min-content; /*altura baseada no elemento filho*/
+    }
+}
+
+
 
 
 /*company celebration */

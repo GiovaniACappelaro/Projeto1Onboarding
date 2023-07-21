@@ -712,6 +712,29 @@ select{
     }
 }
 
+@media(min-width:1600px){
+    .glass1{
+        left: +16rem;
+    }
+
+    .glass2{
+        left: +9rem;
+    }
+
+    .glass3{
+        left: +2.5rem;
+    }
+
+    #menuCTA{
+        width: 10rem;
+        height: 3rem;
+        font-weight: 550;
+        margin-right: 3.7rem;
+        font-size: 1.1rem;
+        transition: 0.8s;
+    }
+}
+
 
 /*Hero banner */
 
